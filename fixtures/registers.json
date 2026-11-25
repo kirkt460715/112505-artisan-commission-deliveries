@@ -1,0 +1,61 @@
+{
+  "order": "co-17",
+  "deposit_cents": 14000,
+  "pieces": [
+    {
+      "id": "frame",
+      "maker": "wood-team",
+      "agreed_cents": 18000,
+      "sample": "design-1"
+    },
+    {
+      "id": "cloth",
+      "maker": "weaver-team",
+      "agreed_cents": 12000,
+      "sample": "design-1"
+    },
+    {
+      "id": "stand",
+      "maker": "wood-team",
+      "agreed_cents": 6000,
+      "sample": null
+    }
+  ],
+  "dependencies": [
+    {
+      "assembly": "display",
+      "needs": [
+        "frame",
+        "cloth"
+      ]
+    }
+  ],
+  "agreed_split_pickup": true,
+  "pickup_delegations": [
+    {
+      "collector": "buyer",
+      "pieces": [
+        "frame",
+        "stand"
+      ]
+    },
+    {
+      "collector": "proxy-2",
+      "pieces": [
+        "cloth"
+      ]
+    }
+  ],
+  "serial_stock": [
+    {
+      "serial": "stand-r1",
+      "allocated_order": "co-31"
+    }
+  ],
+  "payment": {
+    "deposit": "pay-01",
+    "previous_paid": {
+      "stand": 6000
+    }
+  }
+}

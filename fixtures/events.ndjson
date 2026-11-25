@@ -1,0 +1,5 @@
+{"cursor": 1, "source": "review", "minute": 12, "payload": {"piece": "stand", "decision": "accepted"}}
+{"cursor": 2, "source": "review", "minute": 19, "payload": {"piece": "frame", "decision": "accepted"}}
+{"cursor": 3, "source": "review", "minute": 22, "payload": {"piece": "cloth", "decision": "declined", "reason": "sample_color"}}
+{"cursor": 4, "source": "design", "minute": 25, "payload": {"sample": "design-2", "affects": ["cloth"]}}
+{"cursor": 5, "source": "pickup", "minute": 35, "payload": {"piece": "frame", "collector": "buyer", "handover": "handover-31"}}

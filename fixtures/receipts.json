@@ -1,0 +1,22 @@
+[
+  {
+    "operation": "take-piece",
+    "recipient": "pickup-east",
+    "delivery": "lost_reply",
+    "receipt": {
+      "receipt": "handover-31",
+      "piece": "frame",
+      "received": true
+    }
+  },
+  {
+    "operation": "return-funds",
+    "recipient": "cash-provider",
+    "delivery": "applied",
+    "receipt": {
+      "case": "change-20",
+      "receipt": "money-7",
+      "status": "returned"
+    }
+  }
+]
